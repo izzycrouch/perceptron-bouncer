@@ -49,7 +49,7 @@ class Perceptron:
             grad = error * predictions * (1 - predictions)
             self.weights -= self.learning_rate * np.dot(X.T, grad)
             self.bias -= self.learning_rate * np.sum(grad)
-    
+
 # p = Perceptron(4)
 #print(p.array)
 
