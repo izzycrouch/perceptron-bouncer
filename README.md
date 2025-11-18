@@ -1,4 +1,4 @@
-# Perception Bouncer
+# Perceptron Bouncer
 
 ## Objectives
 1. Create a simple perceptron model
